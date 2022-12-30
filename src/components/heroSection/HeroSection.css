@@ -1,0 +1,688 @@
+.landingpage_wrapper {
+  background-color: #0b0b0f;
+
+  position: relative;
+  z-index: -1;
+}
+.hero_section_bg {
+  background: url("../../assets/images/block-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: -118px;
+  padding: 300px 0px;
+  padding-bottom: 500px;
+}
+
+.hero_content h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 85px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
+.hero_content p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #898ca9;
+  text-align: center;
+}
+.hero_button {
+  display: flex;
+  justify-content: space-between;
+}
+.hero_button button {
+  background: linear-gradient(225deg, #18c8ff 14.89%, #933ffe 85.85%);
+  border-radius: 10px;
+  padding: 25px 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+.cards_section:after {
+  background: url("../../assets/images/looper.png");
+  content: " ";
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 500px;
+  height: 100%;
+}
+.cards_section .card_one_wrapper {
+  background: #1a1b23;
+  border-radius: 25px;
+  text-align: center;
+  padding: 30px;
+  height: 390px;
+}
+.inner_detail {
+  height: 280px;
+}
+
+.card_detail h4 {
+  margin: 16px 0px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #fff;
+}
+.card_detail p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #898ca9;
+}
+.cards_section {
+  position: relative;
+  padding-bottom: 469px;
+}
+.circle__img {
+  position: absolute;
+  top: -545px;
+  right: 0;
+}
+.cards_section {
+  position: relative;
+  z-index: 44444444444444455;
+}
+.circle__img img {
+  width: 400px;
+}
+.view_etherscan {
+  margin-top: 16px;
+}
+.view_etherscan {
+  font-family: "Inter", sans-serif;
+  color: #b982ff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.mining_form_wrapper {
+  background: #1a1b23;
+  border-radius: 25px;
+  padding: 30px;
+}
+.mining_section {
+  margin-top: -370px;
+}
+.left_mining_section .rewards,
+.mining_right_section .rewards {
+  background: #0b0b0f;
+  border-radius: 25px;
+  padding: 32px 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.cards_icons svg {
+  margin-left: 6px;
+  color: #b982ff;
+}
+.mining_amount_section {
+  background: #0b0b0f;
+  border-radius: 25px;
+  padding: 30px;
+}
+.mining_inner_input_wrapper:before {
+  content: " ";
+  inset: 0;
+  position: absolute;
+  border-radius: 10px;
+  border-image-source: linear-gradient(
+    225deg,
+    #18c8ff 14.89%,
+    #933ffe 85.85%
+  ) !important;
+  border-image-slice: 1;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  -webkit-mask-composite: xor;
+}
+.enter_amount input {
+  padding: 16px 20px;
+  position: relative;
+  z-index: 11;
+  color: rgb(184, 184, 184);
+  outline: none;
+  border: none;
+  background: none;
+}
+/* .enter_amount input {
+  font-family: "Inter", sans-serif;
+
+  padding: 15px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #565976;
+
+  outline: none;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  background: #0b0b0f;
+} */
+.enter_amount p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898ca9;
+}
+.mining_button .hire_ETH {
+  background: linear-gradient(225deg, #18c8ff 14.89%, #933ffe 85.85%);
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0px;
+  width: 100%;
+}
+.miner_double_btn {
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.miner_double_btn button {
+  background: linear-gradient(225deg, #18c8ff 14.89%, #933ffe 85.85%);
+  padding: 20px 50px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.rewards .rewards_dip p,
+.rewards .rewards_dip2 p {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-left: 16px;
+}
+.rewards .rewards_dip2 p {
+  text-align: start;
+}
+.miner_rules {
+  background: #0b0b0f;
+  border-radius: 25px;
+  padding: 30px;
+}
+.rules p,
+.rules h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898ca9;
+  text-align: center;
+}
+.rules h6 {
+  margin-bottom: 16px;
+}
+.miner_rules h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.mining_heading h4 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.referal_section {
+  background: url("../../assets//images/circles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  margin-top: -200px;
+  padding-top: 350px;
+  padding-bottom: 500px;
+}
+.referal_content h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.referal_content p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #898ca9;
+  text-align: center;
+  width: 92%;
+  margin: auto;
+  margin-bottom: 32px;
+}
+/* .referal_content input {
+  padding: 16px 20px;
+  background: transparent;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 30px rgba(255, 255, 255, 0.05),
+    inset 0px 2px 2px rgba(255, 255, 255, 0.15);
+} */
+
+.refereal--link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1px;
+  background: linear-gradient(266.57deg, #3479fb -4.01%, #4eeeb3 89.75%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  /* -webkit-mask-composite: xor; */
+  mask-composite: exclude;
+}
+.refereal--link {
+  position: relative;
+}
+.referal_content input {
+  padding: 16px 20px;
+  position: relative;
+  z-index: 11;
+  color: rgb(184, 184, 184);
+  outline: none;
+
+  border: none;
+  background: none;
+}
+
+.Start_Mining {
+  padding: 175px 0px;
+}
+.start_mining h6 {
+  font-family: "Inter", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+}
+.mine_steps_wrapper {
+  background: #1a1b23;
+  border-radius: 25px;
+  padding: 30px;
+}
+.mine_steps_wrapper .simplee_steps,
+.instruction_ {
+  background: #0b0b0f;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  padding: 30px 22px;
+}
+.simplee_steps h5,
+.instruction_ h5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+.mine_detail_steps {
+  background: #0b0b0f;
+  border-radius: 25px;
+  padding: 30px;
+  text-align: center;
+}
+.mine_detail_steps h5,
+.mine_detail_steps p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #898ca9;
+  margin-bottom: 4px;
+}
+.referal_section {
+  position: relative;
+  z-index: 44444444;
+}
+
+.referal_section:after {
+  content: " ";
+  background: url("../../assets/images/orangebg.png");
+  position: absolute;
+  top: 37%;
+  left: -180px;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 50%;
+  z-index: -1;
+}
+.referal_section:before {
+  content: " ";
+  background: url("../../assets/images/lopper2.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: -2;
+}
+.instruction_section {
+  margin-top: -280px;
+}
+.instruction_wrapper {
+  background: #1a1b23;
+  border-radius: 25px;
+  padding: 30px;
+}
+.instruction_detail_steps {
+  background: #0b0b0f;
+  border-radius: 25px;
+  padding: 30px;
+}
+.instruction_detail_steps ul li,
+.instruction_detail_steps p {
+  font-family: "Inter", sans-serif;
+  list-style-type: decimal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #898ca9;
+}
+.instruction_detail_steps ul li ul li {
+  list-style-type: upper-latin;
+}
+.instruction_section {
+  position: relative;
+  z-index: 444444;
+}
+/* .instruction_section:after{
+content:" ";
+background: url('../../assets/images/instructionbg.png');
+z-index: -1;
+position: absolute;
+width: 40%;
+height: auto;
+top: 0;
+right: 0px;
+} */
+
+
+.post-iiclass{
+  position: relative;
+}
+.warning {
+  background: #1a1b23;
+  border-radius: 25px;
+  padding: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.warning h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+.warning p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #898ca9;
+  width: 80%;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+.miner_double_btn button {
+  border: none;
+}
+.instruction_detail_steps ul {
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 1400px) {
+  .landingpage_wrapper section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  /* .landingpage_wrapper{
+        padding:0px 20px;
+    } */
+  .hero_content h2 {
+    font-size: 75px;
+    line-height: 85px;
+  }
+  .hero_section_bg {
+    margin-top: -110px;
+    padding: 200px 0px;
+    padding-bottom: 400px;
+  }
+  .rewards .rewards_dip p,
+  .rewards .rewards_dip2 p {
+    font-size: 28px;
+  }
+  .rules p,
+  .rules h6 {
+    font-size: 15px;
+  }
+  .referal_section {
+    padding-top: 270px;
+  }
+  .Start_Mining {
+    padding: 70px 0px;
+  }
+  .warning p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .hero_content h2 {
+    font-size: 66px;
+    line-height: 80px;
+  }
+  .hero_section_bg {
+    margin-top: -111px;
+    padding: 150px 0px;
+    padding-bottom: 345px;
+  }
+  .card_detail p {
+    font-size: 14px;
+  }
+  .card_detail h4 {
+    font-size: 30px;
+  }
+  .cards_section {
+    padding-bottom: 425px;
+  }
+  .rewards .rewards_dip p,
+  .rewards .rewards_dip2 p {
+    font-size: 24px;
+  }
+  .referal_content p {
+    width: 100%;
+  }
+  .referal_section {
+    padding-bottom: 400px;
+  }
+  .warning {
+    margin: 65px 0px;
+  }
+  .warning h6 {
+    font-size: 30px;
+  }
+  .warning p {
+    font-size: 14px;
+    width: 95%;
+  }
+  .instruction_detail_steps ul li,
+  .instruction_detail_steps p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero_section_bg {
+    margin-top: -60px;
+    padding: 150px 0px;
+    padding-bottom: 275px;
+  }
+  .hero_content h2 {
+    font-size: 65px;
+    line-height: 70px;
+  }
+  .rewards .rewards_dip p,
+  .rewards .rewards_dip2 p {
+    font-size: 20px;
+  }
+  .left_mining_section .rewards,
+  .mining_right_section .rewards {
+    padding: 22px 20px;
+    margin-bottom: 22px;
+  }
+  .miner_double_btn {
+    flex-direction: column;
+    margin-top: 8px;
+  }
+  .pcoket_btn {
+    margin-top: 8px;
+  }
+  .mining_button .hire_ETH,
+  .miner_double_btn button {
+    padding: 14px 0px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .cards_section .card_one_wrapper {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero_section_bg {
+    margin-top: -80px;
+    padding: 100px 0px;
+    padding-bottom: 200px;
+    padding-top: 200px;
+  }
+  .hero_content h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .circle__img {
+    top: -365px;
+  }
+  .circle__img img {
+    width: 270px;
+  }
+  .rewards .rewards_dip p,
+  .rewards .rewards_dip2 p {
+    font-size: 18px;
+  }
+  .rewards img {
+    width: 60px;
+  }
+  .mining_right_section {
+    margin-top: 20px;
+  }
+  .referal_content h6,
+  .start_mining h6 {
+    font-size: 40px;
+  }
+  .referal_content p {
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+  .shilde_img {
+    text-align: center;
+  }
+  .simplee_steps h5,
+  .instruction_ h5 {
+    font-size: 28px;
+  }
+  .mine_steps_wrapper .simplee_steps,
+  .instruction_ {
+    margin-bottom: 22px;
+    padding: 20px 20px;
+  }
+  .Start_Mining {
+    padding: 40px 0px;
+  }
+  .referal_section {
+    padding-bottom: 340px;
+  }
+  .warning {
+    margin: 30px 0px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .hero_content h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+  .hero_button button {
+    padding: 18px 40px;
+  }
+}
+@media screen and (max-width: 510px) {
+  .hero_button button {
+    padding: 16px 35px;
+    font-size: 14px;
+  }
+  .card_detail h4 {
+    font-size: 26px;
+  }
+  .rewards .rewards_dip p,
+  .rewards .rewards_dip2 p {
+    font-size: 14px;
+  }
+  .mining_section {
+    margin-top: -410px;
+  }
+  .mining_form_wrapper {
+    padding: 25px;
+  }
+  .mining_heading h4,
+  .referal_content h6,
+  .start_mining h6 {
+    font-size: 30px;
+  }
+  .Start_Mining {
+    padding: 45px 0px;
+  }
+  .referal_section {
+    padding-top: 245px;
+  }
+  .warning p {
+    font-size: 12px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 440px) {
+  .hero_button button {
+    padding: 14px 30px;
+    font-size: 14px;
+  }
+  .enter_amount p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hero_button button {
+    padding: 14px 25px;
+    font-size: 12px;
+  }
+  .mining_form_wrapper {
+    padding: 15px;
+  }
+}
